@@ -32,6 +32,7 @@
   },
   "backend": {
     "imageid": "kind-v2",
+    "main": true,
     "init_env_file": "init_env.sh",
     "open_ports": [80, 8000, 8080]
   }
